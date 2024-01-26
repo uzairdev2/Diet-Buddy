@@ -1,3 +1,6 @@
+import 'package:diet_buddy/features/onboarding%20screens/onboarding_screen_03.dart';
+import 'package:diet_buddy/features/profile%20screen/profile_screen.dart';
+import 'package:diet_buddy/features/sign%20up%20screen/sign_up_screen.dart';
 import 'package:get/get.dart';
 
 import '../../features/Home Screen/home_screen.dart';
@@ -14,12 +17,20 @@ class AppRoutes {
           page: () => const SplashScreen(),
         ),
         GetPage(
-          name: RoutesName.SignIn,
+          name: RoutesName.SignInScreen,
           page: () => const SignInScreen(),
+        ),
+        GetPage(
+          name: RoutesName.SignUpScreen,
+          page: () => const SignUpScreen(),
         ),
         GetPage(
           name: RoutesName.HomeScreen,
           page: () => const HomeScreen(),
+        ),
+        GetPage(
+          name: RoutesName.ProfileScreen,
+          page: () => const ProfileScreen(),
         ),
         GetPage(
           name: RoutesName.OnBoarding01,
@@ -28,6 +39,10 @@ class AppRoutes {
         GetPage(
           name: RoutesName.OnBoarding02,
           page: () => const OnBaordingScreen02(),
+        ),
+        GetPage(
+          name: RoutesName.OnBoarding03,
+          page: () => const OnBoardingScreen03(),
         ),
       ];
 }

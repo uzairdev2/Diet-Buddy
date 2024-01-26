@@ -1,5 +1,5 @@
+import 'package:diet_buddy/core/routes/routes_name.dart';
 import 'package:diet_buddy/core/utils/sizedbox.dart';
-import 'package:diet_buddy/features/onboarding%20screens/onboarding_screen_03.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
@@ -89,7 +89,9 @@ class OnBaordingScreen02 extends StatelessWidget {
                       children: [
                         CustomButton(
                           name: 'Skip',
-                          ontap: () {},
+                          ontap: () {
+                            Get.toNamed(RoutesName.SignInScreen);
+                          },
                           color: orange,
                           height: 40.h,
                           width: 110.w,
@@ -98,7 +100,7 @@ class OnBaordingScreen02 extends StatelessWidget {
                         CustomButton(
                           name: 'Next',
                           ontap: () {
-                            Get.to(() => const OnBoardingScreen03());
+                            Get.toNamed(RoutesName.OnBoarding03);
                           },
                           color: customBlack,
                           height: 40.h,

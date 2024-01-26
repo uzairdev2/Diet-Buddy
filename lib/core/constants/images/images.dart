@@ -4,11 +4,12 @@ const logo = "assets/images/logo.png";
 const firstonBoardingback = "assets/images/men_runing.png";
 const nutritions = "assets/images/nutritions.png";
 const robot = "assets/images/robot.png";
+const profile = "assets/images/profile.png";
 
 // declare for designs
-const onboardingDesign = "assets/designs/onboarding_design.png";
-const vectorDesign1 = "assets/designs/vectorDesign1.png";
-const vectorDesign2 = "assets/designs/vectorDesign2.png";
+const onboardingDesign = "assets/designs/onboardingBackground.png";
+const signInBackground = "assets/designs/signInDesign.png";
+const profileDesign = "assets/designs/profileDesign.png";
 
 // Declare for the icons
 const arrowRightIcon = "assets/icons/arrowRightIcon.png";
@@ -23,3 +24,6 @@ const linkdlneIcon = "assets/icons/linkdlneIcon.png";
 const lockIcon = "assets/icons/lockIcon.png";
 const simpleLogo = "assets/icons/simpleLogo.png";
 const weightIcon = "assets/icons/weightIcon.png";
+const emailIcon = "assets/icons/emailIcon.png";
+const user = "assets/icons/user.png";
+const greaterIcon = "assets/icons/greaterIcon.png";
